@@ -120,6 +120,6 @@ if __name__ == "__main__":
     findBestRC(
         buildResistorValueList(E192 if args.resistor_tolerance <= 0.5 else E96 if args.resistor_tolerance == 1 else E24 if args.resistor_tolerance <= 5 else E12),
         buildCapacitorValueList(E24),
-        Quantity(args.tau),
+        Quantity(args.tau, 's'),
         top=args.num_results
     )
