@@ -12,14 +12,15 @@ E24 decade table is used to calculate most standard value capacitors, then the r
 # Usage
 
 Call `calculateRC.py` via the command line.
+
 `calculateRC.py [-h] [-r {0.1,0.25,0.5,1,2,5,10}] [-n NUM_RESULTS] tau`
 
-positional arguments:
-  tau                   Target RC time constant (e.g., 10ms, 0.5s)
+### Positional arguments:
+`tau` Target RC time constant (e.g., 10ms, 0.5s)
 
-options:
-  -h, --help            show this help message and exit
-  -r, --resistor-tolerance {0.1,0.25,0.5,1,2,5,10}
-                        Resistor tolerance in percent (default: 1%)
-  -n, --num-results NUM_RESULTS
-                        Number of top results to display (default: 5)
+### Options:
+`-h, --help` show this help message and exit
+
+`-r, --resistor-tolerance` {0.1,0.25,0.5,1,2,5,10} Resistor tolerance in percent (default: 1%)
+
+`-n, --num-results` NUM_RESULTS Number of top results to display (default: 5)
