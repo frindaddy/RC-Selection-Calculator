@@ -1,4 +1,4 @@
-# RC Constant Calculator
+# RC Constant Component Calculator
 
 Calculator for determining the best resistor and capacitor combination to get a given RC time constant (Tau) using standard component values.
 
