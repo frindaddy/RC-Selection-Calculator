@@ -75,7 +75,7 @@ Call `calculateRR.py` via the command line.
 
 #### Positional arguments
 
-`ratio` Target divider ratio (e.g. 2.1, 1/100, 0.125, etc.)
+`ratio` Target ratio (e.g. 2.1, 1/100, 0.125, etc.)
 
 #### Options
 
